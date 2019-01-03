@@ -1,0 +1,14 @@
+{
+  "name": "aquaponics",
+  "version": "1.0.0",
+  "description": "business site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ekow_krayak",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
