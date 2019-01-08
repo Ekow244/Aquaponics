@@ -33,10 +33,10 @@
                 background-image:linear-gradient(to right,rgba($color-tertiary-dark,0.88),rgba($color-tertiary-light,0.88));
             }
             &-2{
-                background-image:linear-gradient(to right,rgba(rgb(96, 255, 81), 0.74),rgba(rgb(0, 187, 187), 0.74));
+                background-image:linear-gradient(to right,rgba(rgb(238, 255, 81), 0.74),rgba(rgb(187, 22, 0), 0.74));
             }
             &-3{
-                background-image:linear-gradient(to right,rgba(rgb(253, 255, 134), 0.74),rgba(rgb(177, 224, 7), 0.74));
+                background-image:linear-gradient(to right,rgba(rgb(160, 134, 255), 0.74),rgba(rgb(224, 7, 159), 0.74));
             }
         }
     }
@@ -57,16 +57,16 @@
 
 
         &--1{
-            background-image:linear-gradient(to right,rgba($color-secondary-light, 0.74),rgba($color-secondary-dark, 0.74)),url(../img/tilapia.jpg);
+            background-image:linear-gradient(to right,rgba($color-secondary-light, 0.74),rgba($color-secondary-dark, 0.74)),url(../img/fish2.jpg);
             clip-path: polygon(0 0 , 100% 0,100% 85%, 0 100%);
             
         }
         &--2{
-            background-image:linear-gradient(to right,rgba(rgb(96, 255, 81), 0.74),rgba(rgb(0, 187, 187), 0.74)),url(../img/tilapia.jpg);
+            background-image:linear-gradient(to right,rgba(rgb(96, 255, 81), 0.74),rgba(rgb(0, 187, 187), 0.74)),url(../img/fish3.jpg);
             
         }
         &--3{
-            background-image:linear-gradient(to right,rgba(rgb(253, 255, 134), 0.74),rgba(rgb(177, 224, 7), 0.74)),url(../img/tilapia.jpg);
+            background-image:linear-gradient(to right,rgba(rgb(253, 255, 134), 0.74),rgba(rgb(177, 224, 7), 0.74)),url(../img/fish1.jpg);
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
         }
     }
